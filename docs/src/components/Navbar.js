@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import App from './App';
-import Project from './Project';
-import Resume from './Resume';
-import { Link, Switch, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import 'bulma/css/bulma.css';
 
 class Navbar extends Component {
@@ -10,10 +7,11 @@ class Navbar extends Component {
         return (
             <nav className="navbar" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="./index.html">
+                    <Link className="navbar-item" to="">
                         <strong>MJ Kang</strong>
-                    </a>
+                    </Link>
                 </div>
+
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
@@ -29,12 +27,6 @@ class Navbar extends Component {
                         </div>
                     </div>
                 </div>
-
-                <Switch>
-                    <Route path="/" element={<App />} />
-                    <Route path="/project" element={<Project />} />
-                    <Route path="/resume" element={<Resume />} />
-                </Switch>
             </nav>
         );
     }
