@@ -3,7 +3,7 @@ import 'bulma/css/bulma.css';
 
 function Project() {
     return (
-        <div>
+        <div className="container">
             <h1> [PROJECTS] </h1>
         </div>
     );
