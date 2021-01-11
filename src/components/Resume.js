@@ -26,15 +26,14 @@ function ResumeSection() {
                         <article className="media notification is-info">
                             <figure className="media-left">
                                 <span className="icon is-medium">
-                                    <i className="fab fa-2x fa-css3-alt"></i>
+                                    <i className="fas fa-2x fa-cogs"></i>
                                 </span>
                             </figure>
                             <div className="media-content">
                                 <div className="content">
-                                    <h1 className="title is-size-4">Bulma?</h1>
+                                    <h1 className="title is-size-4">Logical Thinking</h1>
                                     <p className="is-size-5">
-                                        Bulma is a modern CSS framework from @jgthms, based on Flexbox.
-										Using Bulma, we can describe our website's design using just classes. <span class="emoticon">ᕕ( ᐛ )ᕗ</span>
+                                        AAAAA AAAAA AAAAA AAAAA AAAAA AAAAA AAAAA AAAAA AAAAA AAAAA
                                     </p>
                                 </div>
                             </div>
@@ -44,15 +43,14 @@ function ResumeSection() {
                         <article className="media notification is-primary">
                             <figure className="media-left">
                                 <span className="icon is-medium">
-                                    <i className="fas fa-2x fa-align-justify"></i>
+                                    <i className="fas fa-2x fa-comments"></i>
                                 </span>
                             </figure>
                             <div className="media-content">
                                 <div className="content">
-                                    <h1 className="title is-size-4">…Flexbox?</h1>
+                                    <h1 className="title is-size-4">Communication</h1>
                                     <p className="is-size-5">
-                                        Flexbox is a CSS spec that makes sectioning and aligning more natural.
-										We don't need to know Flexbox but it's how Bulma works behind-the-scenes. <span class="emoticon">⦤(^ー^)⦥</span>
+                                        BBBBB BBBBB BBBBB BBBBB BBBBB BBBBB BBBBB BBBBB BBBBB BBBBB
                                     </p>
                                 </div>
                             </div>
@@ -62,15 +60,14 @@ function ResumeSection() {
                         <article className="media notification is-warning">
                             <figure className="media-left">
                                 <span className="icon is-medium">
-                                    <i className="fas fa-2x fa-shield-alt"></i>
+                                    <i className="fas fa-2x fa-code"></i>
                                 </span>
                             </figure>
                             <div className="media-content">
                                 <div className="content">
-                                    <h1 className="title is-size-4">…Classes?</h1>
+                                    <h1 className="title is-size-4">Development</h1>
                                     <p className="is-size-5">
-                                        Instead of writing our CSS per-element, we can use predefined classes.
-										With enough classes, we can describe our website design using semantics. <span class="emoticon">٩(^ᴗ^)۶</span>
+                                        CCCCC CCCCC CCCCC CCCCC CCCCC CCCCC CCCCC CCCCC CCCCC CCCCC
                                     </p>
                                 </div>
                             </div>

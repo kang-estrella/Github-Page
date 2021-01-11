@@ -11,20 +11,28 @@ class Navbar extends Component {
                         <Link className="navbar-item" to="">
                             <strong>MJ Kang</strong>
                         </Link>
+                        <span className="navbar-burger" data-target="navbarMenuA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
                     </div>
 
-                    <div className="navbar-end">
-                        <div className="navbar-item">
-                            <div className="buttons">
-                                <Link className="navbar-item" to="resume">
-                                    Resume
-                            </Link>
-                                <Link className="navbar-item" to="project">
-                                    Project
-                            </Link>
-                                <a className="navbar-item" href="https://blog.mj-kang.com/">
-                                    Blog
-                            </a>
+                    <div id="navbarMenuA" className="navbar-menu">
+                        <div className="navbar-end">
+                            <Link className="navbar-item" to="resume">
+                                Resume
+                                    </Link>
+                            <Link className="navbar-item" to="project">
+                                Project
+                                    </Link>
+                            <div className="navbar-item">
+                                <a className="button is-light" href="https://blog.mj-kang.com/">
+                                    <span className="icon">
+                                        <i className="fas fa-rss"></i>
+                                    </span>
+                                    <span>Blog</span>
+                                </a>
                             </div>
                         </div>
                     </div>
