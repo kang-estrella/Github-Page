@@ -1,6 +1,6 @@
 html {
-  background-color: #00bcf1;
-  background-image: linear-gradient(to bottom right, #00bcf1, #180CAC);
+  background-color: #202020;
+  background-image: linear-gradient(to bottom right, #303030, #000000);
   font-family: "Work sans", sans-serif;
 }
 
@@ -14,12 +14,12 @@ html {
 }
 
 .hr {
-  background-color: #00bcf1;
+  background-color: #d8f3dc;
 }
 
 .button {
-  background-color: #303884;
-  color: #cbffdc;
+  background-color: #1b4332;
+  color: #ffffff;
 }
 
 .social a {
